@@ -11,6 +11,24 @@ This changelog covers specific API-level changes in Microsoft Graph v1.0 and bet
 
 For a summary of the value of these API changes, as well as recent tools, components, guidance, and tutorial additions, see [What's new in Microsoft Graph](whats-new-overview.md).
 
+## February 2021
+
+### Education
+
+| **Change type** | **Version** | **Description**                                                                                                                       |
+| :-------------- | :---------- | :------------------------------------------------------------------------------------------------------------------------------------ |
+| Change          | v1.0        | The [educationTeacher](/graph/api/resources/educationteacher) `externalId` property is now returned when using delegated permissions. |
+| Change          | v1.0        | The [educationStudent](/graph/api/resources/educationstudent) `externalId` property is now returned when using delegated permissions. |
+| Addition        | v1.0        | Added `faculty` to the list of possible values for `primaryRole`                                                                      |
+| Addition        | v1.0        | Added `lms` to the list of possible values for `educationExternalSource`.                                                             |
+| Addition        | v1.0        | Added [delta](./delta-query-overview.md) support to [educationClass](/graph/api/resources/educationClass).                            |
+| Addition        | v1.0        | Added new properties `grade`, `course`, and `externalSourceDetail` to [educationClass](/graph/api/resources/educationClass).          |
+| Addition        | v1.0        | Added [delta](./delta-query-overview.md) support to [educationUser](/graph/api/resources/educationUser).                              |
+| Addition        | v1.0        | Added new property `externalSourceDetail` property to [educationUser](/graph/api/resources/educationUser).                            |
+| Addition        | v1.0        | Added new relationship `taughtClasses` to [educationUser](/graph/api/resources/educationUser).                                        |
+| Addition        | v1.0        | Added [delta](./delta-query-overview.md) support to [educationSchool](/graph/api/resources/educationSchool).                          |
+| Addition        | v1.0        | Added new property `externalSourceDetail` property to [educationSchool](/graph/api/resources/educationSchool).                        |
+
 ## January 2021
 
 ### Applications
